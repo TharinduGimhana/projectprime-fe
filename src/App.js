@@ -7,6 +7,9 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About } from "./pages/About";
 import { Home } from "./pages/Home";
+import { EarthWorkQuantities } from "./pages/EarthWorkQuantities";
+import { MachineModels } from "./pages/MachineModels";
+import { Services } from "./pages/Services";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About/>}></Route>
+          <Route path="/earth-work-quantities" element={<EarthWorkQuantities/>}></Route>
+          <Route path="/machine-models" element={<MachineModels/>}></Route>
+          <Route path="/services" element={<Services/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
