@@ -1,0 +1,15 @@
+.bg-dark{
+    background: #000000;
+}
+
+.bg-dark h5{
+    color: #ffff;
+}
+
+.bg-dark p{
+    color: #aeaaaa
+}
+
+.align-items-start{
+    margin-top: 30px !important;
+}

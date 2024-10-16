@@ -1,0 +1,17 @@
+footer {
+  background-color: #000000;
+}
+
+footer h7 {
+  margin-bottom: 1rem;
+  color: #ffff;
+}
+
+footer p {
+  margin: 0;
+  color: #aeaaaa;
+}
+
+.bg-dark img {
+  height: 40px;
+}
