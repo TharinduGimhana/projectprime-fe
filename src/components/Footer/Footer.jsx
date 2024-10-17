@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 import logo from "../../assets/Logo/ProjectPrime_Horizontal_GreenWhite.png";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -75,7 +76,7 @@ const Footer = () => {
             </Col>
 
             <Col md={4} className="mb-4">
-              <p>Follow us on: //linkeddin icon</p>
+              <p>Follow us on:  <FaLinkedinIn className="custom-icon-footer" size={20} /></p>
             </Col>
           </Row>
         </Container>

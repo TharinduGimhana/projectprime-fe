@@ -1,0 +1,16 @@
+.bottom-widget {
+  text-align: center;
+  padding: 30px;
+}
+
+.bottom-widget h1 {
+  color: #ddfe34;
+}
+
+.bottom-widget p {
+  color: #b8b8b8;
+}
+
+.bottom-widget-bg {
+  background: #000000;
+}

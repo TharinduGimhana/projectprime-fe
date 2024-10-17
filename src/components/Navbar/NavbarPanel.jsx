@@ -17,7 +17,10 @@ const NavbarPanel = () => {
                 <Navbar.Brand href="#home" className="nav-logo">
                   <img src={logo} alt="Logo" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle
+                  aria-controls="basic-navbar-nav"
+                  className="custom-toggle"
+                />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="ms-auto align-items-center">
                     <Nav.Link href="#home">HOME</Nav.Link>
