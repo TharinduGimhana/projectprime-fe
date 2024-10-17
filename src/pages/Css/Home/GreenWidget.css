@@ -1,0 +1,35 @@
+.row-green-wid {
+  background: linear-gradient(to left, #4bfe2d, #ddfe34);
+  align-items: center;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: -40px !important;
+}
+
+.learn-m-green {
+  color: #ddfe34;
+  background: #000000;
+  padding: 15px;
+  width: 120px;
+}
+
+.custome-button-green-wd {
+  transform: translate(0, 10%);
+}
+
+.custom-icon-sm-green-wd{
+    color: #000000;
+    transform: translate(50%, -40%);
+}
+
+.custom-logo-black{
+    width: 50px;
+}
+
+@media (max-width: 767px) {
+    .custom-icon-col-green-wd{
+        text-align: center !important;
+        margin-top: 30px !important;
+    }
+}
+

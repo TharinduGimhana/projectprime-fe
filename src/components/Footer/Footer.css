@@ -1,4 +1,8 @@
-footer {
+* {
+  line-height: 2;
+}
+
+.footer-top {
   background-color: #000000;
 }
 
@@ -12,6 +16,56 @@ footer p {
   color: #aeaaaa;
 }
 
-.bg-dark img {
+.footer-top img {
   height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-top.py-4 {
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+
+.footer-middle {
+  background: linear-gradient(to left, #4bfe2d, #ddfe34);
+  align-items: center;
+}
+
+.footer-middle p {
+  color: #ddfe34;
+  background: #000000;
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+}
+
+.mb-10 {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.mb-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 0.5rem !important;
+}
+
+.footer-bottom {
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-bottom .mb-4 {
+  margin-bottom: 0px !important;
+}
+
+.custom-icon-footer{
+  color: #000000;
+  background: #ffff;
+  padding: 2px;
 }

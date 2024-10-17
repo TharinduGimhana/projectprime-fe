@@ -13,12 +13,13 @@
 .custom-navbar {
   min-height: 60px;
   background: #ffff !important;
+  opacity: 0.9; 
 }
 
 .nav-link::after {
   content: "•";
   margin-left: 10px;
-  color: #0000;
+  color: #000000;
 }
 
 .nav-link:last-child::after {
@@ -31,4 +32,16 @@
 
 .nav-logo img {
   height: 40px;
+}
+
+@media (max-width: 400px) {
+  .nav-logo img {
+    height: 30px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .custom-toggle{
+    margin: 5px;
+  }
 }

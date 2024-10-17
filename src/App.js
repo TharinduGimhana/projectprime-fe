@@ -5,12 +5,14 @@ import Footer from "./components/Footer/Footer";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About } from "./pages/About";
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home/Home";
 import { EarthWorkQuantities } from "./pages/EarthWorkQuantities";
 import { MachineModels } from "./pages/MachineModels";
 import { Services } from "./pages/Services";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (

@@ -1,0 +1,122 @@
+.left-box {
+  border-top: 15px solid #ffff;
+  border-bottom: 15px solid #ffff;
+  border-left: 15px solid #ffff;
+  border-right: 7.5px solid #ffff;
+  padding: 20px;
+  background-color: #000000;
+  transition: transform 0.3s;
+  text-align: center;
+  gap: 0px;
+}
+
+.right-box {
+  border-top: 15px solid #ffff;
+  border-bottom: 15px solid #ffff;
+  border-left: 7.5px solid #ffff;
+  border-right: 15px solid #ffff;
+  padding: 20px;
+  background-color: #000000;
+  transition: transform 0.3s;
+  text-align: center;
+  gap: 0px;
+}
+
+.mid-box {
+  border-top: 15px solid #ffff;
+  border-bottom: 15px solid #ffff;
+  border-left: 7.5px solid #ffff;
+  border-right: 7.5px solid #ffff;
+  padding: 20px;
+  background-color: #000000;
+  transition: transform 0.3s;
+  text-align: center;
+  gap: 0px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.938),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../../../assets/Images/Home/Rectangle\ 14-1.jpg");
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.box-component .mb-4 {
+  padding: 0px !important;
+}
+
+.box-component h3 {
+  color: #ffff;
+}
+
+.box-component p {
+  color: #b8b8b8;
+}
+
+.custom-icon {
+  color: #ddfe34;
+  margin: 50px;
+}
+
+.get-q {
+  background: #ddfe34;
+  color: #000000 !important;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .mid-box {
+    border: 10px solid #ffff !important;
+    padding: 20px;
+    background-color: #000000;
+    transition: transform 0.3s;
+    text-align: center;
+    gap: 0px;
+  }
+
+  .box-component {
+    margin-top: 10px;
+  }
+
+  .left-box {
+    border-top: 15px solid #ffff;
+    border-bottom: 15px solid #ffff;
+    border-left: 15px solid #ffff;
+    border-right: 15px solid #ffff;
+  }
+
+  .right-box {
+    border-top: 15px solid #ffff;
+    border-bottom: 15px solid #ffff;
+    border-left: 15px solid #ffff;
+    border-right: 15px solid #ffff;
+  }
+
+  .mid-box {
+    border-top: 15px solid #ffff;
+    border-bottom: 15px solid #ffff;
+    border-left: 15px solid #ffff !important;
+    border-right: 15px solid #ffff !important;
+  }
+}
+
+@media (min-width: 760px) {
+  .box-component {
+    margin-top: -100px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .get-q {
+    margin: 0px 110px 0px 110px;
+  }
+}

@@ -1,0 +1,71 @@
+.rect-bg-left-bottom {
+    background: url("../../../assets/Images/Home/Rectangle\ 13-1.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 50vh;
+    border-right: 7.5px solid #000000;
+    padding: 0px !important;
+  }
+  
+  .rect-bg-right-bottom {
+    background: url("../../../assets/Images/Home/Rectangle\ 14-1.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 50vh;
+    border-left: 7.5px solid #000000;
+    overflow: hidden;
+    padding: 0px !important;
+  }
+  
+  .rect-bottom-container {
+    border-top: 15px solid #000000;
+    border-bottom: 15px solid #000000;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 767px) {
+      .rect-bg-left-bottom {
+          height: 30vh;
+          border-bottom: 7.5px solid #000000;
+        }
+        
+        .rect-bg-right-bottom {
+          height: 30vh;
+          border-top: 7.5px solid #000000;
+        }
+        
+        .rect-bottom-container {
+          border-top: 15px solid #000000;
+          border-bottom: 15px solid #000000;
+          overflow: hidden;
+        }
+        
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+      .rect-bg-left-bottom {
+          height: 30vh;
+  
+        }
+        
+        .rect-bg-right-bottom {
+          height: 30vh;
+  
+        }
+        
+  }
+  
+  @media (min-width: 1025px) {
+      .rect-bg-left-bottom {
+          height: 50vh;
+  
+        }
+        
+        .rect-bg-right-bottom {
+          height: 50vh;
+  
+        }
+        
+  }
