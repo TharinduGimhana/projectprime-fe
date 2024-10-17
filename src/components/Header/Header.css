@@ -1,12 +1,12 @@
-.bg-dark{
+.header-dark{
     background: #000000;
 }
 
-.bg-dark h5{
+.header-dark h5{
     color: #ffff;
 }
 
-.bg-dark p{
+.header-dark p{
     color: #aeaaaa
 }
 

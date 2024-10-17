@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="bg-dark">
+    <div className="header-dark">
       <Container>
         <Row>
           <Col md={4} className="mb-4 d-flex align-items-start">
