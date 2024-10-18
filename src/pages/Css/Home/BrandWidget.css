@@ -9,12 +9,24 @@
 .brand-container{
     border: 3px solid #000000;
     margin-bottom: 40px;
-    padding: 10px;
+    padding: 20px;
 }
 
-.arrow-icon-btn{
-    border: none;
-    padding: 10px;
-    background: #000000;
-    color: #ffffff;
+.arrow-icon-btn {
+  border: none;
+  padding: 10px;
+  background: #b8b8b8;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Adds smooth transition */
+}
+
+.arrow-icon-btn:hover {
+  background: #000000; /* Changes background to black on hover */
+}
+
+
+.brand-logo{
+  width: 200px;
+  margin: auto !important;
 }

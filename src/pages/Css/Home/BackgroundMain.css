@@ -54,6 +54,7 @@
   .background-section {
     background-position: top;
     height: 30vh;
+    margin-top: 0px;
   }
 
   .line-one {
@@ -92,6 +93,7 @@
   .background-section {
     background-position: top;
     height: 45vh;
+    margin-top: 0px;
   }
 }
 
