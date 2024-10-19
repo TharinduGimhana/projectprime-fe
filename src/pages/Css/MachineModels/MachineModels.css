@@ -1,0 +1,11 @@
+.machine-model-main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+    .machine-model-main{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
