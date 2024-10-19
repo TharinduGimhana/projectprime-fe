@@ -4,11 +4,11 @@ import NavbarPanel from "./components/Navbar/NavbarPanel";
 import Footer from "./components/Footer/Footer";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { About } from "./pages/About";
+import { About } from "./pages/About/About";
 import { Home } from "./pages/Home/Home";
-import { EarthWorkQuantities } from "./pages/EarthWorkQuantities";
-import { MachineModels } from "./pages/MachineModels";
-import { Services } from "./pages/Services";
+import { EarthWorkQuantities } from "./pages/EarthWork/EarthWorkQuantities";
+import { MachineModels } from "./pages/MachineModels/MachineModels";
+import { Services } from "./pages/Services/Services";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css"; 
