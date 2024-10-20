@@ -1,0 +1,24 @@
+.bg-mission-val-model {
+  background: #000000;
+}
+
+.mission-val-model-content {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+.bg-dark-mission-val-row {
+  padding-top: 20px;
+}
+
+.bg-dark-mission-val-row h2 {
+  color: #ddfe34;
+  margin-top: -10px;
+}
+
+@media (max-width: 767px) {
+  .mission-val-model-container {
+    overflow: hidden;
+    text-align: center;
+  }
+}

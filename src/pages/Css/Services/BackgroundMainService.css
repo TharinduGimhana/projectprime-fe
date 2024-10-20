@@ -1,0 +1,92 @@
+.background-section-service {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0),
+      rgba(11, 8, 8, 0.501)
+    ),
+    url("../../../assets/Images/EarthworksQuantites/Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  margin-top: -60px;
+}
+
+.background-section-service .content {
+  position: absolute;
+  top: 40%;
+  transform: translate(0, -50%);
+  line-height: 1 !important;
+}
+
+.background-section-service .content p {
+  line-height: 1;
+}
+
+.line-three-service {
+  font-size: 80px;
+  font-weight: 600;
+  color: #ddfe34;
+}
+
+.price-check-btn {
+  width: 180px;
+  color: #000000;
+  background: #ddfe34;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .background-section-service {
+    background-position: top;
+    height: 30vh;
+    margin-top: 0px;
+  }
+
+  .line-three-service {
+    font-size: 30px;
+  }
+
+  .background-section-service .content {
+    position: absolute;
+    top: 50% !important;
+    transform: translate(0, -70%) !important;
+    line-height: 1 !important;
+  }
+
+  .price-check-btn {
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .background-section-service {
+    background-position: top;
+    height: 45vh;
+    margin-top: 0px;
+  }
+
+  .line-three-service {
+    font-size: 30px;
+  }
+
+  .price-check-btn {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .background-section-service {
+    margin-top: -120px;
+  }
+}

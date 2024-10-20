@@ -1,0 +1,56 @@
+.bg-mission-values-model {
+  background: #000000;
+}
+
+.mission-values-model-content {
+  padding: 7rem !important;
+}
+
+.bg-dark-mission-values-row h4 {
+  color: #fff;
+  margin-top: -10px;
+}
+
+.bg-dark-mission-values-row p {
+  color: #b8b8b8;
+}
+
+.image-container-values {
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-cropped-values {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .mission-values-model-container {
+    overflow: hidden;
+    text-align: center;
+  }
+  .image-container-values {
+    overflow: hidden;
+    order: 2;
+  }
+
+  .mission-values-model-content{
+    order: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mission-values-model-container {
+    overflow: hidden;
+    text-align: center;
+  }
+  .image-container-values {
+    overflow: hidden;
+  }
+  .mission-values-model-content {
+    padding: 2rem !important;
+  }
+}

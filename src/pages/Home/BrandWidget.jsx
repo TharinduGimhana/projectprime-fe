@@ -3,6 +3,11 @@ import "../Css/Home/BrandWidget.css";
 import { Col, Container, Row } from "react-bootstrap";
 import Slider from "react-slick";
 import { GrNext, GrPrevious } from "react-icons/gr";
+import trimble from "../../assets/Logo/trimble.png"
+import topcon from "../../assets/Logo/topcon.png"
+import leica from "../../assets/Logo/leica.png"
+import Komatsu from "../../assets/Logo/Komatsu.png"
+import carlson from "../../assets/Logo/carlson.png"
 
 
 export const BrandWidget = () => {
@@ -21,9 +26,9 @@ export const BrandWidget = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1030,
         settings: {
-          slidesToShow: 4, // Show 4 logos at once on large tablets
+          slidesToShow: 3, // Show 4 logos at once on large tablets
         },
       },
       {
@@ -65,42 +70,42 @@ export const BrandWidget = () => {
             >
               <div key={1}>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src={trimble}
                   alt="Brand 1"
                   className="brand-logo"
                 />
               </div>
               <div key={2}>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src={topcon}
                   alt="Brand 2"
                   className="brand-logo"
                 />
               </div>
               <div key={3}>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src={leica}
                   alt="Brand 3"
                   className="brand-logo"
                 />
               </div>
               <div key={4}>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src={Komatsu}
                   alt="Brand 4"
                   className="brand-logo"
                 />
               </div>
               <div key={5}>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src={carlson}
                   alt="Brand 5"
                   className="brand-logo"
                 />
               </div>
               <div key={6}>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src={trimble}
                   alt="Brand 6"
                   className="brand-logo"
                 />

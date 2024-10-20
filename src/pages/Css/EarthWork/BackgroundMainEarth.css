@@ -1,0 +1,134 @@
+.background-section-earth {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0),
+      rgba(11, 8, 8, 0.501)
+    ),
+    url("../../../assets/Images/EarthworksQuantites/Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  margin-top: -60px;
+}
+
+.background-section-earth .content {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  line-height: 1 !important;
+}
+
+.background-section-earth .content p {
+  line-height: 1;
+}
+
+.line-one-earth {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.line-three-earth {
+  font-size: 80px;
+  font-weight: 600;
+  color: #ddfe34;
+}
+
+.para-earth {
+  color: #ffff;
+  margin-top: 120px;
+  line-height: 2 !important;
+  margin-top: 40px;
+}
+
+.price-check-btn{
+  width: 180px;
+  color: #000000;
+  background: #ddfe34;
+  padding: 20px;
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.para-earth-container{
+  padding-left: 0px !important;
+}
+
+@media (max-width: 767px) {
+  .background-section-earth {
+    background-position: top;
+    height: 30vh;
+    margin-top: 0px;
+  }
+
+  .line-one-earth {
+    font-size: 15px ;
+  }
+
+  .line-three-earth {
+    font-size: 15px ;
+  }
+
+  .para-earth {
+    display: none;
+  }
+
+  .background-section-earth .content {
+    position: absolute;
+    top: 70% !important;
+    transform: translate(0, -70%) !important;
+    line-height: 1 !important;
+  }
+
+  .price-check-btn{
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .background-section-earth {
+    background-position: top;
+    height: 45vh;
+    margin-top: 0px;
+  }
+
+  .para-earth {
+    margin-top: 20px;
+    font-size: 12px ;
+  }
+
+  .line-one-earth {
+    font-size: 20px ;
+    margin-top: 30px;
+  }
+
+  .line-three-earth {
+    font-size: 20px ;
+
+  }
+
+  .price-check-btn{
+    margin-top: 10px;
+  }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .background-section-earth {
+    margin-top: -120px;
+  }
+
+  .line-one-earth {
+    margin-top: 100px;
+  }
+
+}
