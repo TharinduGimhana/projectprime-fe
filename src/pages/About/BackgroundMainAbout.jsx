@@ -1,18 +1,18 @@
 import React from "react";
-import "../Css/About/About.css";
+import "../Css/About/BackgroundMainAbout.css";
 import { Col, Container, Row } from "react-bootstrap";
 
 export const BackgroundMainAbout = () => {
   return (
-    <div className="background-section-machine">
+    <div className="background-section-about">
       <Container>
         <Row>
           <Col md={12} className="mb-12">
             <div className="content">
-              <p className="line-three-machine">ABOUT US</p>
+              <p className="line-three-about">ABOUT US</p>
 
-              <Container p-0 className="para-machine-container">
-                <p className="para-machine">
+              <Container p-0 className="para-about-container">
+                <p className="para-about">
                   At Project Prime, we specialize in delivering precise
                   surveying services to the civil construction industry. Since
                   our founding in 2018, we've been committed to supporting

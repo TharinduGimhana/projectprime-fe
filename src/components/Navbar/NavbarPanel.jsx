@@ -59,7 +59,12 @@ const NavbarPanel = () => {
                     >
                       ABOUT
                     </Nav.Link>
-                    <Nav.Link className="navbarquote" href="#home">
+                    <Nav.Link
+                      className="navbarquote"
+                      href="/get-a-quote"
+                      active={activeLink === "about"}
+                      onClick={() => setActiveLink("about")}
+                    >
                       GET A QUOTE
                     </Nav.Link>
                   </Nav>
