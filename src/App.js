@@ -13,6 +13,7 @@ import { Services } from "./pages/Services/Services";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { GetQuote } from "./pages/GetQuote/GetQuote";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           ></Route>
           <Route path="/machine-models" element={<MachineModels />}></Route>
           <Route path="/services" element={<Services />}></Route>
+          <Route path="/get-a-quote" element={<GetQuote />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
