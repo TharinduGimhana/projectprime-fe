@@ -1,7 +1,18 @@
-.about-model-content{
-    
+.about-model-content {
 }
 
-.about-model-container{
-    overflow: hidden;
+.about-model-container {
+  overflow: hidden;
+}
+
+.about-model-main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  .about-model-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }

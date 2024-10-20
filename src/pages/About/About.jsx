@@ -1,4 +1,5 @@
 import React from "react";
+import '../Css/About/About.css'
 import { BackgroundMainAbout } from "./BackgroundMainAbout";
 import { AboutModelMain } from "./AboutModelMain";
 import { MissionWidget } from "./MissionWidget";
@@ -71,7 +72,7 @@ export const About = () => {
   ];
 
   return (
-    <div>
+    <div className="about-over-flow">
       <BackgroundMainAbout />
       <div className="about-model-main">
         <AboutModelMain data={ContentMain} />
