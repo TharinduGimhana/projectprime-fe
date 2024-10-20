@@ -40,7 +40,7 @@
     url("../../../assets/Images/Home/Rectangle\ 14-1.jpg");
 }
 
-h3 {
+h4 {
   margin-top: 15px;
 }
 
@@ -52,12 +52,17 @@ p {
   padding: 0px !important;
 }
 
-.box-component h3 {
+.box-component h4 {
   color: #ffff;
+  font-weight: 600;
+  font-family: 'TT Commons', sans-serif;
 }
 
 .box-component p {
   color: #b8b8b8;
+  font-family: 'TT Commons', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .custom-icon {
@@ -68,9 +73,9 @@ p {
 .get-q {
   background: #ddfe34;
   color: #000000 !important;
-  font-size: 15px;
-  font-weight: 600;
+  font-weight: 600 !important;
   padding: 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {

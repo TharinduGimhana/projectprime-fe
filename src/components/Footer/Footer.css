@@ -6,18 +6,24 @@
   background-color: #000000;
 }
 
-footer h7 {
+footer h6 {
   margin-bottom: 1rem;
   color: #ffff;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 footer p {
   margin: 0;
   color: #aeaaaa;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .footer-top img {
-  height: 40px;
+  height: 35px;
   margin-bottom: 10px;
 }
 
@@ -31,12 +37,20 @@ footer p {
   align-items: center;
 }
 
+.footer-middle h2 {
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
+}
+
 .footer-middle p {
   color: #ddfe34;
   background: #000000;
-  padding: 15px;
+  padding: 10px;
   width: 120px;
   text-align: center;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .mb-10 {
@@ -60,12 +74,22 @@ footer p {
   text-align: center;
 }
 
+.footer-bottom p{
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .footer-bottom .mb-4 {
   margin-bottom: 0px !important;
 }
 
-.custom-icon-footer{
+.custom-icon-footer {
   color: #000000;
   background: #ffff;
   padding: 2px;
+}
+
+.lets-talk-btn {
+  cursor: pointer;
 }

@@ -5,3 +5,7 @@
 .earth-model-container{
     border: 3px solid #000;
 }
+
+.bottom-margin-earth-model{
+   margin-bottom: 100px;
+}

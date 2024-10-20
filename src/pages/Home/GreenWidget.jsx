@@ -16,7 +16,7 @@ export const GreenWidget = () => {
           <Col lg={9} md={9} sm={12} className="mb-9 ">
             <div className="d-flex p-3">
               <div>
-                <h4 className="mb-1">Site Ready</h4>
+                <h4 className="mb-1">Prime Ready</h4>
                 <p>
                   This service focuses on preparing your site for construction
                   with precise, data-driven solutions.

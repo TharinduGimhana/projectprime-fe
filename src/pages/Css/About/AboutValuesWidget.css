@@ -9,10 +9,16 @@
 .bg-dark-mission-values-row h4 {
   color: #fff;
   margin-top: -10px;
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
 }
 
 .bg-dark-mission-values-row p {
+  margin-top: 10px;
   color: #b8b8b8;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .image-container-values {
@@ -37,7 +43,7 @@
     order: 2;
   }
 
-  .mission-values-model-content{
+  .mission-values-model-content {
     order: 1;
   }
 }

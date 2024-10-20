@@ -1,7 +1,29 @@
-.machine-model-content{
-    padding: 30px !important;
+.machine-model-content {
+  padding: 40px !important;
 }
 
-.machine-model-container{
-    border: 3px solid #000;
+.machine-model-content h3 {
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
+}
+
+.machine-model-content p {
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.machine-model-container {
+  border: 3px solid #000;
+}
+
+.image-container-machine {
+  overflow: hidden;
+}
+
+.img-cropped-machine {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
 }

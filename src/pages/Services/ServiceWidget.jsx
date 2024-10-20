@@ -53,12 +53,12 @@ export const ServiceWidget = (props) => {
               />
             </Col>
 
-            <Col md={4} className="service-border p-0">
+            <Col md={4} className="service-border p-0 image-container-service">
               <Image
                 src={props.serviceContent.image}
                 alt="Description of the image"
                 fluid
-                className="w-100 h-100"
+                className="w-100 h-100 img-cropped-service"
               />
             </Col>
           </Row>
@@ -95,12 +95,12 @@ export const ServiceWidget = (props) => {
               />
             </Col>
 
-            <Col md={4} className="service-border p-0">
+            <Col md={4} className="service-border p-0 image-container-service">
               <Image
                 src={props.serviceContent.image}
                 alt="Description of the image"
                 fluid
-                className="w-100 h-100"
+                className="w-100 h-100 img-cropped-service"
               />
             </Col>
           </Row>

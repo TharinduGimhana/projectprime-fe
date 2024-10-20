@@ -10,17 +10,17 @@ export const MidWigetQuote = () => {
       <Container fluid className="bg-dark-mid-quote p-5">
         <Row>
           <Col lg={6}>
-            <h3 className="text-center p-4">CONTACT DETAILS</h3>
+            <h2 className="text-center p-4">CONTACT DETAILS</h2>
           </Col>
-          <Col lg={3} className="text-center mod-quote-contact">
+          <Col lg={3} className="text-center">
             <MdEmail className="green-quote-icon" size={40} />
-            <h5>Email us</h5>
-            <p>quotes@projectprime.com.au</p>
+            <h5 className="mod-quote-contact">Email us</h5>
+            <p className="mod-quote-contact">quotes@projectprime.com.au</p>
           </Col>
           <Col lg={3} className="text-center mod-quote-contact">
             <BiSolidPhoneCall className="green-quote-icon" size={40} />
-            <h5>Call us</h5>
-            <p>quotes@projectprime.com.au</p>
+            <h5 className="mod-quote-contact">Call us</h5>
+            <p className="mod-quote-contact">quotes@projectprime.com.au</p>
           </Col>
         </Row>
       </Container>

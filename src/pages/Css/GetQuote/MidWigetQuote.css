@@ -2,14 +2,26 @@
   background: #000000;
 }
 
-.bg-dark-mid-quote h3 {
+.bg-dark-mid-quote h2 {
   color: #ddfe34;
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
 }
 
-.mod-quote-contact h5,
-p {
+.bg-dark-mid-quote h5 {
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
+}
+
+.bg-dark-mid-quote p {
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.mod-quote-contact {
   color: #fff;
-} 
+}
 
 .green-quote-icon {
   color: #ddfe34;

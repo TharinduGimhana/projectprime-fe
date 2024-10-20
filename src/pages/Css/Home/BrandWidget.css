@@ -3,6 +3,11 @@
   padding: 50px;
 }
 
+.brand-widget h1 {
+  font-family: 'Termina', sans-serif;
+  font-weight: 500;
+}
+
 .slick-next {
   right: -25px !important;
 }

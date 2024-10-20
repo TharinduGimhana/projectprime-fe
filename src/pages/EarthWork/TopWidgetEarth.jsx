@@ -14,7 +14,7 @@ export const TopWidgetEarth = (props) => {
             >
               {props.earthWorksData.map((description, index) => (
                 <div key={index}>
-                  <p>{description}</p>
+                  <h4>{description}</h4>
                   <hr />
                 </div>
               ))}
@@ -34,9 +34,9 @@ export const TopWidgetEarth = (props) => {
     );
   } else if (props?.earthContent) {
     return (
-      <div>
+      <div className="bottom-margin-earth-model">
       <Container
-        className="earth-model-container p-0 my-4"
+        className="earth-model-container p-0 my-4 "
       >
         <Row>
           <Col
