@@ -1,4 +1,13 @@
-.about-model-content {
+.about-model-content h3 {
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
+}
+
+.about-model-content p {
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
 .about-model-container {
@@ -14,5 +23,9 @@
   .about-model-main {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+
+  .about-model-content {
+    text-align: center;
   }
 }

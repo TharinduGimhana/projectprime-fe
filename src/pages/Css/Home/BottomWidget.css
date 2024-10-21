@@ -1,14 +1,20 @@
 .bottom-widget {
   text-align: center;
-  padding: 30px;
+  padding: 40px;
 }
 
 .bottom-widget h1 {
   color: #ddfe34;
+  font-family: 'Termina', sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .bottom-widget p {
   color: #b8b8b8;
+  font-family: 'TT Commons', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .bottom-widget-bg {

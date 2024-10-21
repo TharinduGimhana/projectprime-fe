@@ -4,10 +4,15 @@
 
 .sm-box h4{
     color: #ffffff;
+    font-family: 'TT Commons', sans-serif;
+    font-weight: 600;
 }
 
 .sm-box p{
     color: #b8b8b8;
+    font-family: 'TT Commons', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .custom-icon-sm{

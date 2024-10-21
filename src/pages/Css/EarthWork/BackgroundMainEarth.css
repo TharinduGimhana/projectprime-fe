@@ -27,14 +27,16 @@
 }
 
 .line-one-earth {
-  font-size: 50px;
-  font-weight: 600;
+  font-family: "Termina", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
   color: #ffff;
 }
 
 .line-three-earth {
-  font-size: 80px;
+  font-family: "Termina", sans-serif;
   font-weight: 600;
+  font-size: 60px;
   color: #ddfe34;
 }
 
@@ -43,19 +45,25 @@
   margin-top: 120px;
   line-height: 2 !important;
   margin-top: 40px;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.price-check-btn{
+.price-check-btn {
   width: 180px;
   color: #000000;
   background: #ddfe34;
   padding: 20px;
   margin-top: 25px;
   text-align: center;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 
-.para-earth-container{
+.para-earth-container {
   padding-left: 0px !important;
 }
 
@@ -67,11 +75,11 @@
   }
 
   .line-one-earth {
-    font-size: 15px ;
+    font-size: 15px;
   }
 
   .line-three-earth {
-    font-size: 15px ;
+    font-size: 15px;
   }
 
   .para-earth {
@@ -85,7 +93,7 @@
     line-height: 1 !important;
   }
 
-  .price-check-btn{
+  .price-check-btn {
     width: 150px;
     padding: 10px;
     margin-top: 20px;
@@ -103,23 +111,21 @@
 
   .para-earth {
     margin-top: 20px;
-    font-size: 12px ;
+    font-size: 12px;
   }
 
   .line-one-earth {
-    font-size: 20px ;
+    font-size: 20px;
     margin-top: 30px;
   }
 
   .line-three-earth {
-    font-size: 20px ;
-
+    font-size: 20px;
   }
 
-  .price-check-btn{
+  .price-check-btn {
     margin-top: 10px;
   }
-
 }
 
 @media (min-width: 1024px) and (max-width: 1400px) {
@@ -130,5 +136,4 @@
   .line-one-earth {
     margin-top: 100px;
   }
-
 }

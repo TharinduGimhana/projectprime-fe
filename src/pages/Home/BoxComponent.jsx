@@ -13,7 +13,7 @@ export const BoxComponent = () => {
           <Col xs={12} md={4} className="mb-4">
             <div className="left-box">
               <RiShapesFill className="custom-icon" size={50} />
-              <h3>Machine Control Model</h3>
+              <h4>Machine Control Model</h4>
               <p>Machine Control Model Solutions delivers your 3D GPS model on time and hassle free</p>
               <p className="get-q" variant="primary">Get Quote</p>
             </div>
@@ -21,7 +21,7 @@ export const BoxComponent = () => {
           <Col xs={12} md={4} className="mb-4">
             <div className="mid-box">
               <SiGoogleearth className="custom-icon" size={50} />
-              <h3>Earth Works Take-Off</h3>
+              <h4>Earth Works Take-Off</h4>
               <p>Machine Control Model Solutions delivers your 3D GPS model on time and hassle free</p>
               <p className="get-q" variant="primary">Get Quote</p>
             </div>
@@ -29,7 +29,7 @@ export const BoxComponent = () => {
           <Col xs={12} md={4} className="mb-4">
             <div className="right-box">
               <FaAngleDoubleDown className="custom-icon"  size={50} />
-              <h3>Hire a GPS or Total Station</h3>
+              <h4>Hire a GPS or Total Station</h4>
               <p>Machine Control Model Solutions delivers your 3D GPS model on time and hassle free</p>
               <p className="get-q" variant="primary">Contact Us</p>
             </div>

@@ -1,19 +1,33 @@
-.header-dark{
-    background: #000000;
+.header-dark {
+  background: #000000;
 }
 
-.header-dark h5{
-    color: #ffff;
+.header-dark h5 {
+  color: #ffff;
+  font-family: 'Termina', sans-serif;
+  font-weight: 500;
 }
 
-.header-dark p{
-    color: #aeaaaa
+.header-dark p {
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #aeaaaa;
 }
 
-.align-items-start{
-    margin-top: 30px !important;
+.align-items-start {
+  margin-top: 30px !important;
 }
 
-.custom-icon-header{
-    color: #ddfe34;
+.custom-icon-header {
+  color: #ddfe34;
+}
+
+
+@media (max-width: 767px) {
+
+  .mobile-header {
+    justify-content: center;
+  }
+  
 }

@@ -1,3 +1,5 @@
+
+
 .background-section {
   position: relative;
   width: 100%;
@@ -27,27 +29,31 @@
 }
 
 .line-one {
-  font-size: 80px;
-  font-weight: 600;
+  font-size: 60px;
   color: #ffff;
+  font-weight: 500 ;
+  font-family: "Termina", sans-serif;
 }
 
 .line-two {
-  font-size: 80px;
-  font-weight: 600;
+  font-size: 60px;
+  font-weight: 500 ;
   color: #ffff;
+  font-family: "Termina", sans-serif;
 }
 
 .line-two span {
+  font-family: 'Termina', sans-serif;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffff;
 }
 
 .line-three {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
   color: #ddfe34;
+  font-family: "Termina", sans-serif;
 }
 
 @media (max-width: 767px) {

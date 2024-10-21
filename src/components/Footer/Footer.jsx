@@ -21,7 +21,7 @@ const Footer = () => {
             </Col>
 
             <Col md={4} className="mb-4">
-              <h7>Find us:</h7>
+              <h6>Find us:</h6>
               <p>
                 PHYSICAL ADDRESS <br /> 1300 S. Milton Road, Suite 213 <br />{" "}
                 Flagstaff, AZ 86001 <br /> <br /> MAILING ADDRESS <br /> 809 W.
@@ -31,7 +31,7 @@ const Footer = () => {
             </Col>
 
             <Col md={4} className="mb-4">
-              <h7>Working Hours</h7>
+              <h6>Working Hours</h6>
               <Row>
                 <Col xs={6} className="text-start">
                   <p>Monday-Friday</p>
@@ -58,7 +58,7 @@ const Footer = () => {
               </h2>
             </Col>
             <Col md={2} className="mb-2">
-              <p>Let's Talk</p>
+              <p className="lets-talk-btn">Let's Talk</p>
             </Col>
           </Row>
         </Container>

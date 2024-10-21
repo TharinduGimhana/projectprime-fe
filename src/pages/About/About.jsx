@@ -72,8 +72,9 @@ export const About = () => {
   ];
 
   return (
-    <div className="about-over-flow">
+    <div >
       <BackgroundMainAbout />
+      <div className="about-over-flow">
       <div className="about-model-main">
         <AboutModelMain data={ContentMain} />
       </div>
@@ -82,6 +83,8 @@ export const About = () => {
       {ContentValues.map((ContentValues, index) => (
         <AboutValuesWidget Content={ContentValues} />
       ))}
+      </div>
+
     </div>
   );
 };

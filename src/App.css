@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+/* Define the Termina font family */
+@font-face {
+  font-family: "Termina";
+  src: url("../public/fonts/termina/TerminaTest-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Termina";
+  src: url("../public/fonts/termina/TerminaTest-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../public/fonts/TTCommons/TTCommons-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("../public/fonts/TTCommons/TTCommons-Bold.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* Apply the Termina font globally */
+/* body {
+  font-family: "Termina", sans-serif;
+} */
+
+/* h1,h2,h3,h4,h5,h6,p {
+  font-family: "Termina", sans-serif;
+} */

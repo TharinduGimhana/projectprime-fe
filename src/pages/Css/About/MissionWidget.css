@@ -1,5 +1,5 @@
-.bg-mission-about-model{
-    background: #000000;
+.bg-mission-about-model {
+  background: #000000;
 }
 
 .mission-about-model-content {
@@ -14,16 +14,20 @@
 .bg-dark-mission-about-row h2 {
   color: #ddfe34;
   margin-top: -10px;
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
 }
 
 .bg-dark-mission-about-row p {
   color: #b8b8b8;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .active-prime-title {
   color: #ddfe34 !important;
 }
-
 
 .image-container-about {
   height: 350px;
@@ -38,15 +42,12 @@
 }
 
 @media (max-width: 767px) {
-
-
   .mission-about-model-container {
     overflow: hidden;
     text-align: center;
   }
 
-  .mission-about-model-container p{
+  .mission-about-model-container p {
     padding: 10px;
   }
-
 }

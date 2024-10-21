@@ -27,13 +27,15 @@
 }
 
 .line-one-machine {
-  font-size: 50px;
-  font-weight: 600;
+  font-family: "Termina", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
   color: #ffff;
 }
 
 .line-three-machine {
-  font-size: 80px;
+  font-family: "Termina", sans-serif;
+  font-size: 60px;
   font-weight: 600;
   color: #ddfe34;
 }
@@ -43,19 +45,24 @@
   margin-top: 120px;
   line-height: 2 !important;
   margin-top: 40px;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.price-check-btn{
+.price-check-btn {
   width: 180px;
   color: #000000;
   background: #ddfe34;
   padding: 20px;
   margin-top: 25px;
   text-align: center;
-  font-weight: 500;
+  font-family: "TT Commons", sans-serif;
+  font-size: 18px;
+  font-weight: 600 !important;
 }
 
-.para-machine-container{
+.para-machine-container {
   padding-left: 0px !important;
 }
 
@@ -67,11 +74,11 @@
   }
 
   .line-one-machine {
-    font-size: 15px ;
+    font-size: 15px;
   }
 
   .line-three-machine {
-    font-size: 15px ;
+    font-size: 15px;
   }
 
   .para-machine {
@@ -85,7 +92,7 @@
     line-height: 1 !important;
   }
 
-  .price-check-btn{
+  .price-check-btn {
     width: 150px;
     padding: 10px;
     margin-top: 20px;
@@ -103,23 +110,21 @@
 
   .para-machine {
     margin-top: 20px;
-    font-size: 12px ;
+    font-size: 12px;
   }
 
   .line-one-machine {
-    font-size: 20px ;
+    font-size: 20px;
     margin-top: 30px;
   }
 
   .line-three-machine {
-    font-size: 20px ;
-
+    font-size: 20px;
   }
 
-  .price-check-btn{
+  .price-check-btn {
     margin-top: 10px;
   }
-
 }
 
 @media (min-width: 1024px) and (max-width: 1400px) {
@@ -130,5 +135,4 @@
   .line-one-machine {
     margin-top: 100px;
   }
-
 }

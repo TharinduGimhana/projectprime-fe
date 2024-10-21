@@ -18,7 +18,7 @@ import { GetQuote } from "./pages/GetQuote/GetQuote";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/projectprime-fe'>
         <Header />
         <NavbarPanel />
 

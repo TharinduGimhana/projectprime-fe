@@ -1,4 +1,9 @@
-.header-earth-widget{
-    text-align: center;
-    padding: 90px 30px 30px 30px;
+.header-earth-widget {
+  text-align: center;
+  padding: 90px 30px 30px 30px;
+}
+
+.header-earth-widget h1 {
+  font-family: "Termina", sans-serif;
+  font-weight: 500;
 }
