@@ -2,29 +2,22 @@ import React from "react";
 import "../Css/EarthWork/BackgroundMainEarth.css";
 import { Col, Container, Row } from "react-bootstrap";
 
-export const BackgroundMainEarth = () => {
+export const BackgroundMainEarth = (props) => {
   return (
     <div className="background-section-earth">
       <Container>
         <Row>
           <Col md={12} className="mb-12">
             <div className="content">
-              <p className="line-one-earth">EARTHWORK & MATERIALS TAKEOFFS </p>
-              <p className="line-three-earth">WE COMPLETE</p>
-              <p className="line-three-earth">EARTHWORK TAKEOFFS</p>
-              <p className="line-three-earth">NATIONWIDE</p>
+              <p className="line-one-earth">{props.content.lineOne}</p>
+              <p className="line-three-earth">{props.content.lineTwo}</p>
+              <p className="line-three-earth">{props.content.lineThree}</p>
+              <p className="line-three-earth">{props.content.lineFour}</p>
 
               <Container p-0 className="para-earth-container">
-                <p className="para-earth">
-                  Using detailed civil construction plans and CAD files, Project
-                  Prime produces highly accurate earthworks and material
-                  quantities tailored to project requirements. From
-                  straightforward earthworks estimates to in-depth takeoff
-                  reports, skilled technicians ensure precise measurements,
-                  helping projects stay on track and within budget.
-                </p>
+                <p className="para-earth">{props.content.para}</p>
               </Container>
-              <p className="price-check-btn">CHECK PRICING</p>
+              <p className="price-check-btn">{props.content.button}</p>
             </div>
             <div></div>
           </Col>

@@ -4,12 +4,14 @@ import { QuoteForm } from "./QuoteForm";
 import { MidWigetQuote } from "./MidWigetQuote";
 import { GoogleMapQuote } from "./GoogleMapQuote";
 
+import getQuoteContent from '../../assets/contents/getQuote'
+
 export const GetQuote = () => {
   return (
     <div>
-      <BackgroundMainQuote />
+      <BackgroundMainQuote content={getQuoteContent.contentBackground} />
       <QuoteForm />
-      <MidWigetQuote />
+      <MidWigetQuote content={getQuoteContent.middleContent}/>
       <GoogleMapQuote />
     </div>
   );
