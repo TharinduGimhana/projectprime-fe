@@ -93,3 +93,9 @@ footer p {
 .lets-talk-btn {
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .footer-middle h2{
+    text-align: center;
+  }
+}
