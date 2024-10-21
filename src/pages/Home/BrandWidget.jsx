@@ -3,14 +3,8 @@ import "../Css/Home/BrandWidget.css";
 import { Col, Container, Row } from "react-bootstrap";
 import Slider from "react-slick";
 import { GrNext, GrPrevious } from "react-icons/gr";
-import trimble from "../../assets/Logo/trimble.png"
-import topcon from "../../assets/Logo/topcon.png"
-import leica from "../../assets/Logo/leica.png"
-import Komatsu from "../../assets/Logo/Komatsu.png"
-import carlson from "../../assets/Logo/carlson.png"
 
-
-export const BrandWidget = () => {
+export const BrandWidget = (props) => {
   let sliderRef = useRef(null);
   const next = () => {
     sliderRef.slickNext();
@@ -28,25 +22,25 @@ export const BrandWidget = () => {
       {
         breakpoint: 1030,
         settings: {
-          slidesToShow: 3, // Show 4 logos at once on large tablets
+          slidesToShow: 3, 
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3, // Show 3 logos at once on medium devices
+          slidesToShow: 3, 
         },
       },
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 2, // Show 2 logos at once on small devices
+          slidesToShow: 2, 
         },
       },
       {
-        breakpoint: 480, // Mobile devices
+        breakpoint: 480, 
         settings: {
-          slidesToShow: 1, // Show 1 logo at once on mobile view
+          slidesToShow: 1, 
         },
       },
     ],
@@ -57,7 +51,7 @@ export const BrandWidget = () => {
       <Container>
         <Row>
           <Col xs={12} md={12} className="mb-12 brand-widget">
-            <h1>MACHINE CONTROL MODELS FOR ALL BRANDS</h1>
+            <h1>{props.content.title}</h1>
           </Col>
         </Row>
         <Row>
@@ -70,42 +64,42 @@ export const BrandWidget = () => {
             >
               <div key={1}>
                 <img
-                  src={trimble}
+                  src={props.content.trimbleImg}
                   alt="Brand 1"
                   className="brand-logo"
                 />
               </div>
               <div key={2}>
                 <img
-                  src={topcon}
+                  src={props.content.topconImg}
                   alt="Brand 2"
                   className="brand-logo"
                 />
               </div>
               <div key={3}>
                 <img
-                  src={leica}
+                  src={props.content.leicaImg}
                   alt="Brand 3"
                   className="brand-logo"
                 />
               </div>
               <div key={4}>
                 <img
-                  src={Komatsu}
+                  src={props.content.KomatsuImg}
                   alt="Brand 4"
                   className="brand-logo"
                 />
               </div>
               <div key={5}>
                 <img
-                  src={carlson}
+                  src={props.content.carlsonImg}
                   alt="Brand 5"
                   className="brand-logo"
                 />
               </div>
               <div key={6}>
                 <img
-                  src={trimble}
+                  src={props.content.trimbleImg}
                   alt="Brand 6"
                   className="brand-logo"
                 />

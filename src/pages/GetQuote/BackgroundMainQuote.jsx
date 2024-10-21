@@ -2,22 +2,20 @@ import React from "react";
 import "../Css/GetQuote/BackgroundMainQuote.css";
 import { Col, Container, Row } from "react-bootstrap";
 
-export const BackgroundMainQuote = () => {
+export const BackgroundMainQuote = (props) => {
   return (
     <div className="background-section-quote">
       <Container>
         <Row>
           <Col md={12} className="mb-12">
             <div className="content">
-              <p className="line-three-quote">GET IN TOUCH</p>
+              <p className="line-three-quote">{props.content.lineThree}</p>
 
               <Container p-0 className="para-quote-container">
                 <Row>
                   <Col md={6}>
                     <p className="para-quote">
-                      Contact us anytime via phone, email or through this
-                      contact form below. We look forward to helping you with
-                      all your machine control model needs
+                     {props.content.para}
                     </p>
                   </Col>
                   <Col md={6}></Col>

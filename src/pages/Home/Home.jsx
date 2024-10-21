@@ -9,18 +9,22 @@ import { BottomWidget } from "./BottomWidget";
 import { RectBoxBottom } from "./RectBoxBottom";
 import { BrandWidget } from "./BrandWidget";
 
+import  homeContent from '../../assets/contents/home' 
+
+
 export const Home = () => {
+
   return (
     <div>
-      <BackgroundMain />
-      <BoxComponent />
-      <MidWidget />
-      <SmallBoxComponent />
-      <GreenWidget />
+      <BackgroundMain content={homeContent.contentBackground} />
+      <BoxComponent content={homeContent.boxComponentContent} />
+      <MidWidget content={homeContent.midWidgetConent} />
+      <SmallBoxComponent content={homeContent.SmallBoxComponentConent} />
+      <GreenWidget content={homeContent.greenWidgetContent} />
       <RectBoxTop />
-      <BottomWidget />
+      <BottomWidget content={homeContent.bottomWidgetContent} />
       <RectBoxBottom />
-      <BrandWidget />
+      <BrandWidget content={homeContent.brandWidgetContent}/>
     </div>
   );
 };
