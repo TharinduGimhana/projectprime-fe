@@ -11,7 +11,7 @@ const Header = () => {
     <div className="header-dark">
       <Container>
         <Row>
-          <Col md={4} className="mb-4 d-flex align-items-start">
+          <Col md={4} className="mb-4 d-flex align-items-start mobile-header">
             <div className="me-3">
               <TfiAndroid className="custom-icon-header" size={40} />
             </div>
@@ -20,9 +20,8 @@ const Header = () => {
               <p>We are always ready for you</p>
             </div>
           </Col>
-          <Col md={4} className="mb-4 d-flex align-items-start">
+          <Col md={4} className="mb-4 d-flex align-items-start mobile-header">
             <div className="me-3">
-              {" "}
               <MdWifiCalling3 className="custom-icon-header" size={40} />
             </div>
             <div>
@@ -30,7 +29,7 @@ const Header = () => {
               <p>+123 456 789</p>
             </div>
           </Col>
-          <Col md={4} className="mb-4 d-flex align-items-start">
+          <Col md={4} className="mb-4 d-flex align-items-start mobile-header">
             <div className="me-3">
               <MdEmail className="custom-icon-header" size={40} />
             </div>

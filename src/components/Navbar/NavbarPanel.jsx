@@ -15,20 +15,12 @@ const NavbarPanel = () => {
     setActiveLink(location.pathname);
   }, [location]);
 
-   const isQuotePage = activeLink === "/get";
-
-  console.log("active link", activeLink);
   return (
     <div>
       <Container>
         <Row className="g-0">
           <Col className="mx-auto p-0 m-0">
-            <Navbar
-              expand="lg"
-              className={`bg-body-tertiary py-0 custom-navbar ${
-                isQuotePage ? "quote-navbar" : ""
-              }`}
-            >
+            <Navbar expand="lg" className="bg-body-tertiary py-0 custom-navbar">
               <Container className="p-0 m-0">
                 <Navbar.Brand href="/" className="nav-logo">
                   <img src={logo} alt="Logo" />
@@ -41,9 +33,7 @@ const NavbarPanel = () => {
                   <Nav className="ms-auto align-items-center">
                     <Nav.Link
                       href="/"
-                      className={
-                        activeLink === "/" ? "active" : ""
-                      }
+                      className={activeLink === "/" ? "active" : ""}
                     >
                       HOME
                     </Nav.Link>
@@ -77,11 +67,11 @@ const NavbarPanel = () => {
                     </Nav.Link>
                     <Nav.Link
                       href="/get-a-quote"
-                      className={`${
+                      className={
                         activeLink === "/get-a-quote"
-                          ? "active" && "navbarquote"
+                          ? "active-getquote"
                           : "navbarquote"
-                      } `}
+                      }
                     >
                       GET A QUOTE
                     </Nav.Link>

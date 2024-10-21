@@ -22,3 +22,12 @@
 .custom-icon-header {
   color: #ddfe34;
 }
+
+
+@media (max-width: 767px) {
+
+  .mobile-header {
+    justify-content: center;
+  }
+  
+}
