@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 export const MidWidget = (props) => {
   return (
     <div>
-      <Container>
+      <Container className="over-flow">
         <Row>
           <Col xs={12} md={12} className="mb-12 mid-widget">
             <h1

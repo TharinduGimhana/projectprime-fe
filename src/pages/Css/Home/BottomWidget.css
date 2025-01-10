@@ -1,22 +1,182 @@
 .bottom-widget {
-  text-align: center;
-  padding: 40px;
+  /* text-align: center; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: auto !important;
 }
 
 .bottom-widget h1 {
   color: #ddfe34;
-  font-family: 'Termina', sans-serif;
+  font-family: "Termina", sans-serif;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 .bottom-widget p {
   color: #b8b8b8;
-  font-family: 'TT Commons', sans-serif;
-  font-size: 18px;
+  font-family: "TT Commons", sans-serif;
+  font-size: 20px;
   font-weight: 500;
+  padding-right: 30px;
 }
 
 .bottom-widget-bg {
   background: #000000;
+}
+
+.rect-bg-left-top {
+  background: url("../../../assets/Images/Home/Rectangle\ 13.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* height: 50vh;
+  border-right: 7.5px solid #000000;
+  padding: 0px !important; */
+  /* height: 40vh; */
+  border-right: 7.5px solid #000000;
+  border-bottom: 7.5px solid #000000;
+}
+
+.rect-bg-right-top {
+  background: url("../../../assets/Images/Home/Rectangle\ 14.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* height: 50vh;
+  border-left: 7.5px solid #000000;
+  overflow: hidden;
+  padding: 0px !important; */
+  /* height: 40vh; */
+  border-left: 7.5px solid #000000;
+  border-bottom: 7.5px solid #000000;
+}
+
+.rect-bg-left-bottom {
+  background: url("../../../assets/Images/Home/Rectangle\ 13-1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* height: 50vh;
+  border-right: 7.5px solid #000000;
+  padding: 0px !important; */
+  /* height: 40vh; */
+  border-right: 7.5px solid #000000;
+  border-top: 7.5px solid #000000;
+}
+
+.rect-bg-right-bottom {
+  background: url("../../../assets/Images/Home/Rectangle\ 14-1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* height: 50vh;
+  border-left: 7.5px solid #000000;
+  overflow: hidden;
+  padding: 0px !important; */
+  /* height: 40vh; */
+  padding: 10px !important;
+  border-left: 7.5px solid #000000;
+  border-top: 7.5px solid #000000;
+}
+
+
+
+@media (max-width: 767px) {
+  .bottom-widget-content{
+    text-align: center;
+  }
+
+  .bottom-widget p {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .rect-bg-left-top {
+    height: 17vh !important;
+  }
+
+  .rect-bg-right-top {
+    height: 17vh !important;
+  }
+
+  .rect-bg-left-bottom {
+    height: 17vh;
+  }
+
+  .rect-bg-right-bottom {
+    height: 17vh;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .rect-bg-left-top {
+    height: 20vh !important;
+  }
+
+  .rect-bg-right-top {
+    height: 20vh !important;
+  }
+
+  .rect-bg-left-bottom {
+    height: 20vh;
+  }
+
+  .rect-bg-right-bottom {
+    height: 20vh;
+  }
+}
+
+@media (min-width: 1600px) {
+  .rect-bg-left-top {
+    height: 20vh !important;
+  }
+
+  .rect-bg-right-top {
+    height: 20vh !important;
+  }
+
+  .rect-bg-left-bottom {
+    height: 20vh !important;
+  }
+
+  .rect-bg-right-bottom {
+    height: 20vh !important;
+  }
+}
+
+@media (min-height: 1081px) and (max-height: 1400px) {
+  .rect-bg-left-top {
+    height: 17vh !important;
+  }
+
+  .rect-bg-right-top {
+    height: 17vh !important;
+  }
+
+  .rect-bg-left-bottom {
+    height: 17vh !important;
+  }
+
+  .rect-bg-right-bottom {
+    height: 17vh !important;
+  }
+}
+
+@media (min-height: 1401px) {
+  .rect-bg-left-top {
+    height: 15vh !important;
+  }
+
+  .rect-bg-right-top {
+    height: 15vh !important;
+  }
+
+  .rect-bg-left-bottom {
+    height: 15vh !important;
+  }
+
+  .rect-bg-right-bottom {
+    height: 15vh !important;
+  }
 }

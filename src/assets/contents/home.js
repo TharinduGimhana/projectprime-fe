@@ -15,8 +15,7 @@ const contentBackground = {
 const bottomWidgetContent = {
   title: `
      <h1>
-              THE KEY TO RELIABLE MACHINE CONTROL <br />
-              MODELS
+              THE KEY TO RELIABLE MACHINE CONTROL MODELS
             </h1>
     `,
   paraOne:
@@ -32,7 +31,7 @@ const boxComponentContent = [
     button: "Get Quote",
   },
   {
-    title: "Earth Works Take-Off",
+    title: "Earth Works Quantities",
     para: "Machine Control Model Solutions delivers your 3D GPS model on time and hassle free",
     button: "Get Quote",
   },
@@ -65,7 +64,7 @@ const SmallBoxComponentConent = [
 
 const greenWidgetContent = {
   title: "Prime Ready",
-  para: " This service focuses on preparing your site for construction with precise, data-driven solutions.",
+  para: " Prime Ready is your solution for ensuring that all survey data aligns with design data, offering streamlined reporting and comprehensive as-constructed documentation.",
   button: "Learn more",
 };
 

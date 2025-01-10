@@ -1,0 +1,18 @@
+.back-to-top-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d9a01;
+  border: none;
+}
+
+.back-to-top-button:hover {
+  background: #258000;
+}

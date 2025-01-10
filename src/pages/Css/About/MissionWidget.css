@@ -11,7 +11,7 @@
   padding-top: 20px;
 }
 
-.bg-dark-mission-about-row h2 {
+.bg-dark-mission-about-row h1 {
   color: #ddfe34;
   margin-top: -10px;
   font-family: "Termina", sans-serif;
@@ -21,8 +21,10 @@
 .bg-dark-mission-about-row p {
   color: #b8b8b8;
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
+  padding-bottom:40px ;
+  padding-top:40px ;
 }
 
 .active-prime-title {

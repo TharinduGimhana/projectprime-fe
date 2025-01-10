@@ -5,40 +5,57 @@ import Navbar from "react-bootstrap/Navbar";
 import "./NavbarPanel.css";
 import { Col, Row } from "react-bootstrap";
 import logo from "../../assets/Logo/ProjectPrime_Horizontal_GreenBlack.png";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const NavbarPanel = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [activeLink, setActiveLink] = useState(location.pathname);
 
   useEffect(() => {
     setActiveLink(location.pathname);
   }, [location]);
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeNavbar = () => {
+    setIsOpen(false);
+  };
+
+  const handleNavigate = (path) => {
+    navigate(path);
+    closeNavbar(); // Close the navbar after navigating
+  };
+
   return (
-    <div>
+    <div className="nav-bar-black-bg section-margin-common">
       <Container>
         <Row className="g-0">
           <Col className="mx-auto p-0 m-0">
             <Navbar expand="lg" className="bg-body-tertiary py-0 custom-navbar">
               <Container className="p-0 m-0">
-                <Navbar.Brand href="/" className="nav-logo">
+                <Navbar.Brand onClick={() => handleNavigate("/")} className="nav-logo">
                   <img src={logo} alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle
                   aria-controls="basic-navbar-nav"
                   className="custom-toggle"
+                  onClick={toggleNavbar} // Toggle the navbar
                 />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" in={isOpen}>
                   <Nav className="ms-auto align-items-center">
                     <Nav.Link
-                      href="/"
+                      onClick={() => handleNavigate("/")}
                       className={activeLink === "/" ? "active" : ""}
                     >
                       HOME
                     </Nav.Link>
                     <Nav.Link
-                      href="/machine-models"
+                      onClick={() => handleNavigate("/machine-models")}
                       className={
                         activeLink === "/machine-models" ? "active" : ""
                       }
@@ -46,7 +63,7 @@ const NavbarPanel = () => {
                       MACHINE CONTROL MODELS
                     </Nav.Link>
                     <Nav.Link
-                      href="/earth-work-quantities"
+                      onClick={() => handleNavigate("/earth-work-quantities")}
                       className={
                         activeLink === "/earth-work-quantities" ? "active" : ""
                       }
@@ -54,19 +71,19 @@ const NavbarPanel = () => {
                       EARTH WORK QUANTITIES
                     </Nav.Link>
                     <Nav.Link
-                      href="/services"
+                      onClick={() => handleNavigate("/services")}
                       className={activeLink === "/services" ? "active" : ""}
                     >
                       SERVICES
                     </Nav.Link>
                     <Nav.Link
-                      href="/about"
+                      onClick={() => handleNavigate("/about")}
                       className={activeLink === "/about" ? "active" : ""}
                     >
                       ABOUT
                     </Nav.Link>
                     <Nav.Link
-                      href="/get-a-quote"
+                      onClick={() => handleNavigate("/get-a-quote")}
                       className={
                         activeLink === "/get-a-quote"
                           ? "active-getquote"

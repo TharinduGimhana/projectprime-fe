@@ -14,11 +14,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { GetQuote } from "./pages/GetQuote/GetQuote";
+import BackToTopButton from "./components/common/BackToTopButton/BackToTopButton";
 
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/'>
+      <BrowserRouter>
         <Header />
         <NavbarPanel />
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/get-a-quote" element={<GetQuote />}></Route>
         </Routes>
         <Footer />
+        <BackToTopButton />
       </BrowserRouter>
     </div>
   );

@@ -2,11 +2,11 @@ import image from "../../assets/Images/EarthworksQuantites/image.jpg";
 import imageone from "../../assets/Images/EarthworksQuantites/image-1.jpg";
 
 const contentBackground = {
-    lineOne:"EARTHWORK & MATERIALS TAKEOFFS",
-    lineTwo:"WE COMPLETE",
-    lineThree:"EARTHWORK TAKEOFFS",
+    lineOne:"EARTHWORK & MATERIAL QUANTITIES",
+    lineTwo:"COMPREHENSIVE",
+    lineThree:"EARTHWORK QUANTITIES",
     lineFour:"NATIONWIDE",
-    para:" Using detailed civil construction plans and CAD files, Project Prime produces highly accurate earthworks and material quantities tailored to project requirements. From straightforward earthworks estimates to in-depth takeoff reports, skilled technicians ensure precise measurements, helping projects stay on track and within budget.",
+    para:" Using detailed civil construction plans and CAD files, Project Prime delivers precise earthwork and material quantities tailored to meet specific project needs. From basic earthwork estimates to detailed quantity reports, experienced technicians ensure accuracy, helping projects stay on schedule and within budget.",
     button:"CHECK PRICING"
   };
 

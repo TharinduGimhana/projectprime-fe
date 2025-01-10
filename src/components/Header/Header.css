@@ -1,18 +1,21 @@
 .header-dark {
   background: #000000;
+  line-height: 5;
 }
 
 .header-dark h5 {
   color: #ffff;
-  font-family: 'Termina', sans-serif;
+  font-family: "TT Commons", sans-serif;
   font-weight: 500;
+  line-height: 1;
 }
 
 .header-dark p {
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #aeaaaa;
+  line-height: 1;
 }
 
 .align-items-start {
@@ -23,11 +26,38 @@
   color: #ddfe34;
 }
 
+.mobile-header-left {
+  justify-content: start;
+}
 
-@media (max-width: 767px) {
+.mobile-header-right {
+  justify-content: end;
+}
 
-  .mobile-header {
-    justify-content: center;
+.mobile-header-middle {
+  justify-content: center;
+}
+
+@media (max-width: 990px) {
+  .mobile-header-left,
+  .mobile-header-right,
+  .mobile-header-middle {
+    justify-content: left !important;
+  }
+
+  .header-dark {
+    line-height: 5;
   }
   
+  .header-dark h5 {
+    line-height: .8;
+  }
+  
+  .header-dark p {
+    line-height: .7;
+  }
+  
+  .align-items-start {
+    margin-top: 15px !important;
+  }
 }

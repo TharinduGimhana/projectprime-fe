@@ -4,14 +4,14 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export const BackgroundMainQuote = (props) => {
   return (
-    <div className="background-section-quote">
+    <div className="background-section-quote section-margin-common">
       <Container>
         <Row>
           <Col md={12} className="mb-12">
             <div className="content">
               <p className="line-three-quote">{props.content.lineThree}</p>
 
-              <Container p-0 className="para-quote-container">
+              <Container  className="para-quote-container p-0">
                 <Row>
                   <Col md={6}>
                     <p className="para-quote">

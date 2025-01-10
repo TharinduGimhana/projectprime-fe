@@ -19,9 +19,10 @@ export const About = () => {
         <MissionWidget Content={aboutContent.ContentAbout} />
         <MissionWidgetVal Content={aboutContent.ContentAboutVal} />
         {aboutContent.ContentValues.map((ContentValues, index) => (
-          <AboutValuesWidget Content={ContentValues} />
+          <AboutValuesWidget key={index} Content={ContentValues} />
         ))}
       </div>
     </div>
   );
 };
+

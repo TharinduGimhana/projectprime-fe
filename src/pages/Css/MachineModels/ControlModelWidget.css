@@ -9,7 +9,7 @@
 
 .machine-model-content p {
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -27,3 +27,41 @@
   height: 100%;
   display: block;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .image-container-machine {
+    overflow: hidden;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 1600px){
+  .image-container-machine {
+    overflow: hidden;
+    height: 39vh;
+  }
+}
+
+@media (min-height: 1200px) and (max-height: 1499px) {
+  .image-container-machine {
+    overflow: hidden;
+    height: 30vh;
+  }
+}
+
+@media (min-height: 1500px) and (max-height: 1600px) {
+  .image-container-machine {
+    overflow: hidden;
+    height: 28vh;
+  }
+}
+
+@media (min-height: 1600px) {
+  .image-container-machine {
+    overflow: hidden;
+    height: 28vh;
+  }
+}
+
+
+

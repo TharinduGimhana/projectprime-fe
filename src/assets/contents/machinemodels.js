@@ -1,15 +1,16 @@
-import image from "../../assets/Images/MachineModels/image.jpg";
-import imagetwo from "../../assets/Images/MachineModels/image-1.jpg";
-import imagethree from "../../assets/Images/MachineModels/image-2.jpg";
-import imagefour from "../../assets/Images/MachineModels/image-3.jpg";
-import imagefive from "../../assets/Images/MachineModels/image-4.jpg";
+import image from "../../assets/Images/MachineModels/image.png";
+import imagetwo from "../../assets/Images/MachineModels/image-1.png";
+import imagethree from "../../assets/Images/MachineModels/image-2.png";
+import imagefour from "../../assets/Images/MachineModels/image-3.png";
+import imagefive from "../../assets/Images/MachineModels/image-4.png";
 
 const contentBackground = {
   lineOne: "MACHINE CONTROL MODELS",
   lineTwo: "EARTHWORK MACHINE",
   lineThree: "CONTROL MODELS",
   lineFour: "NATIONWIDE",
-  para: "Machine Control Model Solutions 3D GPS machine control model services are here to help our clients take advantage of the many benefits of machine control systems. When using MCMS for your machine control models you can have peace of mind knowing that your model will be ACCURATE, ON TIME, and COMPLETE. With MCMS machine control model services there is no need for expensive computers, software and training. We provide models for all the major machine control systems in the industry. Machine Control Model Solutions is a one stop machine control model service that provides highly accurate models in a timely",
+  paraOne: "Project Prime offers 3D GPS machine control model services designed to help clients fully leverage the benefits of advanced machine control systems. When choosing Project Prime for your machine control models, you can rest assured knowing that the models will be accurate, delivered on time, and tailored to your project needs.",
+  paraTwo:"By partnering with us, there’s no need for expensive hardware, software, or lengthy training. We provide ready-to-use models compatible with all major machine control systems, making us your go-to solution for highly accurate models delivered efficiently",
   button: "CHECK PRICING",
 };
 

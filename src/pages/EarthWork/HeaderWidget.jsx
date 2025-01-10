@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export const HeaderWidget = (props) => {
   return (
-    <div>
+    <div className="section-margin-common">
       <Container>
         <Row >
           <Col xs={12} md={12} className="mb-12 header-earth-widget">

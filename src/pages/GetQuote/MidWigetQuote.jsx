@@ -6,11 +6,11 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 
 export const MidWigetQuote = (props) => {
   return (
-    <div>
-      <Container fluid className="bg-dark-mid-quote p-5">
+    <div className="section-margin-common bg-dark-mid-quote">
+      <Container>
         <Row>
           <Col lg={6}>
-            <h2 className="text-center p-4">{props.content.title}</h2>
+            <h2 className="title-mid-quote p-4">{props.content.title}</h2>
           </Col>
           <Col lg={3} className="text-center">
             <MdEmail className="green-quote-icon" size={40} />

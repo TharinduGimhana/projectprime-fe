@@ -13,6 +13,18 @@
   }
 }
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .custom-container {
+    max-width: 1600px;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +38,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+@media (min-width: 1100px) {
+  .section-margin-common {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .over-flow{
+    overflow: hidden;
+  }
+  
 }
 
 @keyframes App-logo-spin {
@@ -65,13 +92,3 @@
   font-weight: bold;
   font-style: normal;
 }
-
-
-/* Apply the Termina font globally */
-/* body {
-  font-family: "Termina", sans-serif;
-} */
-
-/* h1,h2,h3,h4,h5,h6,p {
-  font-family: "Termina", sans-serif;
-} */

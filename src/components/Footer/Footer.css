@@ -10,7 +10,7 @@ footer h6 {
   margin-bottom: 1rem;
   color: #ffff;
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -18,7 +18,7 @@ footer p {
   margin: 0;
   color: #aeaaaa;
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -49,7 +49,7 @@ footer p {
   width: 120px;
   text-align: center;
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -74,9 +74,9 @@ footer p {
   text-align: center;
 }
 
-.footer-bottom p{
+.footer-bottom p {
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -94,8 +94,76 @@ footer p {
   cursor: pointer;
 }
 
+.footer-b-link {
+  cursor: pointer;
+}
+
+.footer-content-left {
+  padding-right: 50px !important;
+}
+
+.footer-content-right {
+  padding-left: 50px !important;
+}
+
+.footer-content-mid {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.footer-bottom-black-left {
+  text-align: start;
+}
+
+.footer-bottom-black-right {
+  text-align: center;
+}
+
+.footer-bottom-black-middle {
+  text-align: end;
+}
+
 @media (max-width: 767px) {
-  .footer-middle h2{
+  .footer-middle h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .main-logo-footer {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-content-left {
+    padding: 10px !important;
+  }
+
+  .footer-content-right {
+    padding: 10px !important;
+  }
+
+  .footer-content-mid {
+    padding: 10px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .green-box-black-btn {
+    justify-content: end;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .footer-top img {
+    height: 20px;
+  }
+}
+
+@media (max-width: 990px) {
+  .footer-bottom-black-left,
+  .footer-bottom-black-right,
+  .footer-bottom-black-middle {
     text-align: center;
   }
 }

@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export const BackgroundMainEarth = (props) => {
   return (
-    <div className="background-section-earth">
+    <div className="background-section-earth section-margin-common">
       <Container>
         <Row>
           <Col md={12} className="mb-12">
@@ -14,10 +14,10 @@ export const BackgroundMainEarth = (props) => {
               <p className="line-three-earth">{props.content.lineThree}</p>
               <p className="line-three-earth">{props.content.lineFour}</p>
 
-              <Container p-0 className="para-earth-container">
+              <Container  className="para-earth-container p-0">
                 <p className="para-earth">{props.content.para}</p>
               </Container>
-              <p className="price-check-btn">{props.content.button}</p>
+              {/* <p className="price-check-btn">{props.content.button}</p> */}
             </div>
             <div></div>
           </Col>

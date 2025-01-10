@@ -5,7 +5,7 @@ const contentBackground = {
 
 const middleContent = {
   title: "CONTACT DETAILS",
-  phoneNo: "+123 456 7890",
+  phoneNo: "(08) 9747 7377",
   email: "quotes@projectprime.com.au",
 };
 

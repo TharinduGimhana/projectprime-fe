@@ -47,8 +47,8 @@ export const BrandWidget = (props) => {
   };
 
   return (
-    <div>
-      <Container>
+    <div className="section-margin-common">
+      <Container className="over-flow">
         <Row>
           <Col xs={12} md={12} className="mb-12 brand-widget">
             <h1>{props.content.title}</h1>

@@ -1,5 +1,7 @@
 .bg-dark-mid-quote {
   background: #000000;
+  padding-bottom: 20px;
+  padding-top: 35px;
 }
 
 .bg-dark-mid-quote h2 {
@@ -15,7 +17,7 @@
 
 .bg-dark-mid-quote p {
   font-family: "TT Commons", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -25,4 +27,10 @@
 
 .green-quote-icon {
   color: #ddfe34;
+}
+
+@media (max-width: 990px) {
+  .title-mid-quote{
+    text-align: center;
+  }
 }

@@ -29,15 +29,17 @@
 .upload-box h5 {
   margin-top: 10px;
   font-weight: bold;
+  font-family: "TT Commons", sans-serif;
 }
 
 .upload-box p {
   color: #666;
   margin: 5px 0;
+  font-family: "TT Commons", sans-serif;
 }
 
 .form-container-quote {
-  margin-top: -530px;
+  margin-top: -430px;
   margin-bottom: 100px;
 }
 
@@ -60,25 +62,80 @@
   margin-bottom: 0px;
   color: #ddfe34;
   cursor: pointer;
+  font-family: "TT Commons", sans-serif;
 }
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: "TT Commons", sans-serif;
+}
+
+.error-message{
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: "TT Commons", sans-serif;
+}
+
+.error-text{
+  color: red;
+  font-family: "TT Commons", sans-serif;
+}
+
+.spinner-submit{
+  margin: 6px;
+  color: #ddfe34;
+}
+
+.toast-not{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  z-index: 1050;
+  width: 100%;
+  max-width: 500px;
+}
+
 
 @media (max-width: 767px) {
   .form-container-quote {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .toast-not{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    width: 100%;
+    width: 300px;
+  }
+  
 }
 
-@media (min-width: 768px) and (max-width: 1023px)  {
+@media (min-width: 768px) and (max-width: 1023px) {
   .form-container-quote {
     margin-top: 50px;
     margin-bottom: 50px;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1200px)  {
-    .form-container-quote {
-        margin-top: -400px;
-        margin-bottom: 50px;
-    }
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .form-container-quote {
+    margin-top: -500px;
+    margin-bottom: 50px;
   }
+}
+
+@media (min-width: 1600px) {
+  .form-container-quote {
+    margin-top: -420px;
+  }
+}

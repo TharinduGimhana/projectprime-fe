@@ -12,7 +12,7 @@ export const Services = () => {
       <BackgroundMainService content={serviceContents.contentBackground} />
       <div className="service-model-main">
         {serviceContents.serviceContent.map((content, index) => (
-          <ServiceWidget serviceContent={content} />
+          <ServiceWidget key={index} serviceContent={content} />
         ))}
       </div>
     </div>

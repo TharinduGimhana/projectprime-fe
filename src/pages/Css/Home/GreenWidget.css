@@ -1,11 +1,11 @@
 .row-green-wid h4 {
-  font-family: 'TT Commons', sans-serif;
+  font-family: "TT Commons", sans-serif;
   font-weight: 600;
 }
 
 .row-green-wid p {
-  font-family: 'TT Commons', sans-serif;
-  font-size: 18px;
+  font-family: "TT Commons", sans-serif;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -21,8 +21,8 @@
   text-align: center;
   color: #ddfe34;
   background: #000000;
-  padding: 10px;
-  width: 120px;
+  padding: 8px;
+  width: 140px;
   font-weight: 600;
 }
 
@@ -37,12 +37,20 @@
 }
 
 .custom-logo-black {
-  width: 50px;
+  width: 55px;
+  height: 55px;
+  margin-right: 5px;
 }
 
 @media (max-width: 767px) {
   .custom-icon-col-green-wd {
     text-align: center !important;
     margin-top: 30px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .custome-button-green-wd {
+    justify-content: end;
   }
 }

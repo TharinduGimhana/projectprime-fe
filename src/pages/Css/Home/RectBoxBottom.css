@@ -1,8 +1,8 @@
-.rect-bg-left-bottom {
+/* .rect-bg-left-bottom {
     background: url("../../../assets/Images/Home/Rectangle\ 13-1.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 100%;
+    width: 100%;
     height: 50vh;
     border-right: 7.5px solid #000000;
     padding: 0px !important;
@@ -12,7 +12,7 @@
     background: url("../../../assets/Images/Home/Rectangle\ 14-1.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 100%;
+    width: 100%;
     height: 50vh;
     border-left: 7.5px solid #000000;
     overflow: hidden;
@@ -59,13 +59,13 @@
   
   @media (min-width: 1025px) {
       .rect-bg-left-bottom {
-          height: 50vh;
+          height: 35vh !important;
   
         }
         
         .rect-bg-right-bottom {
-          height: 50vh;
+          height: 35vh !important;
   
         }
         
-  }
+  } */

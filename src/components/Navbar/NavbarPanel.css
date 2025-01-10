@@ -10,7 +10,7 @@
   font-weight: 700 !important;
 }
 
-.active-getquote{
+.active-getquote {
   background-color: #000000 !important;
   border-radius: 0;
   color: rgb(255, 255, 255) !important;
@@ -18,17 +18,16 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  padding : 14px 14px 12px 15px !important;
-  margin-right:0.5px;
+  padding: 14px 14px 12px 15px !important;
+  margin-right: 0.5px;
   font-weight: 700 !important;
-
 }
 
 .custom-navbar {
   min-height: 60px;
   background: #ffff !important;
   font-weight: 600;
-  font-family: 'TT Commons', sans-serif;
+  font-family: "TT Commons", sans-serif;
 }
 
 .nav-link::after {
@@ -47,11 +46,20 @@
 
 .nav-logo img {
   height: 40px;
+  cursor: pointer;
 }
 
 .custom-navbar .nav-link.active {
   font-weight: 600;
   color: #000000 !important;
+}
+
+.navbar-collapse {
+  transition: max-height 0.5s ease-out; 
+}
+
+.navbar-collapse.show {
+  transition: max-height 0.5s ease-in; 
 }
 
 
@@ -70,6 +78,13 @@
     margin-left: 10px;
     color: #000000;
   }
+  .navbarquote {
+    margin-bottom:15px ;
+  }
+
+  .active-getquote{
+    margin-bottom:15px ;
+  }
 }
 
 @media (min-width: 1000px) and (max-width: 1400px) {
@@ -77,8 +92,7 @@
     padding: 25px 15px !important;
   }
 
-  .active-getquote{
+  .active-getquote {
     padding: 25px 15px !important;
-
   }
 }

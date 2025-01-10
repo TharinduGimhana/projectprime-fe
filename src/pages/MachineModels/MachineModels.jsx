@@ -12,9 +12,10 @@ export const MachineModels = () => {
       <BackgroundMainMachine content={machineModelContent.contentBackground}/>
       <div className="machine-model-main">
         {machineModelContent.machineModelContents.map((content, index) => (
-          <ControlModelWidget data={content} />
+          <ControlModelWidget key={index} data={content} />
         ))}
       </div>
     </div>
   );
 };
+
