@@ -31,7 +31,7 @@ export const QuoteForm = () => {
   const [showToast, setShowToast] = useState(false); // Toast state
   const [isSuccess, setIsSuccess] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [fileName, setFileName] = useState("");
+  let [fileName, setFileName] = useState("");
 
   const handleClick = () => {
     fileInputRef.current.click();
@@ -122,7 +122,7 @@ export const QuoteForm = () => {
         setIsSuccess(true);
         setShowToast(true); // Show toast notification
         console.log("Toast should display here");
-
+        fileName = "No file selected"
         setFormData({
           first_name: "",
           last_name: "",
@@ -348,10 +348,7 @@ export const QuoteForm = () => {
                 </Col>
               </Row>
 
-              <ToastContainer
-                position="top-right"
-                className="p-3 toast-not"
-              >
+              <ToastContainer position="top-right" className="p-3 toast-not">
                 <Toast
                   onClose={() => setShowToast(false)}
                   show={showToast}

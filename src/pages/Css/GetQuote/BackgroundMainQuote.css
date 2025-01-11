@@ -37,6 +37,7 @@
   font-family: "TT Commons", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  width: 90%;
 }
 
 .para-quote-container {
@@ -136,5 +137,15 @@
     top: 49%;
     transform: translate(0, -50%);
     line-height: 1 !important;
+  }
+}
+
+@media (min-height: 700px) and (max-height: 999px) {
+  .line-three-quote {
+    margin-top: 120px;
+  }
+
+  .para-quote {
+    margin-top: 10px !important;
   }
 }
