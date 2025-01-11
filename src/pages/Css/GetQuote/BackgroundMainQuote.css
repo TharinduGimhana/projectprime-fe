@@ -147,5 +147,6 @@
 
   .para-quote {
     margin-top: 10px !important;
+    width: 80%;
   }
 }
